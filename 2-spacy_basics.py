@@ -46,4 +46,8 @@ matcher = Matcher(nlp.vocab)
 
 pattern1= [{'LOWER':'solarpower'}]
 pattern2=[{'LOWER':'solar'},{'IS_PUNCT':True},{'LOWER':'power'}]
-patern3=[{'LOWER':'solar'},{}]
+patern3=[{'LOWER':'solar'},{'LOWER':'power'}]
+
+
+
+# named entity recognition
