@@ -1,0 +1,2 @@
+[spacy_models]
+en_my_pipeline = en_my_pipeline
